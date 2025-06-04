@@ -1,20 +1,16 @@
 # Datasets
 
-This project uses the following public datasets:
+This project uses two public datasets.
 
-1. **Tennis Shot Side- & Top-View Dataset** – 472 rally clips with landing
-   coordinates provided in a CSV file. Available via Mendeley Data
-   [DOI:10.17632/75m8vz7jr2](https://doi.org/10.17632/75m8vz7jr2). Licensed
-   under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+## Tennis Shot Side- & Top-View v4
+* DOI: [10.17632/75m8vz7jr2.4](https://doi.org/10.17632/75m8vz7jr2.4)
+* License: CC BY 4.0
+* Contains 472 video clips of tennis strokes from side and top views.
+* Cite as: "Tennis Shot Side-View and Top-View Data Set for Player Analysis in Tennis," Mendeley Data, V4.
 
-2. **TrackNet Universiade 2017 Dataset** – broadcast tennis match with
-   labelled ball centres. Described in the paper “TrackNet: A Deep Learning
-   Network for Tracking High-speed Sport Objects” (arXiv:1907.03698). The
-   dataset is provided under an academic use license.
+## TrackNet Universiade 2017 Rally
+* Single rally video and ball labels used in the TrackNet paper.
+* License: research only as stated by the authors.
+* Cite as: Huang et al., "TrackNet: A Deep Learning Network for Tracking High-Speed Ball," 2019.
 
-3. **Roboflow Collections (optional)** – Tennis Ball Detection and Tennis
-   Player Detection sets for detector fine-tuning, available from
-   [Roboflow](https://universe.roboflow.com/). Licensing terms vary by
-   dataset.
-
-Large files are stored in `data/` which is excluded from version control.
+All large assets are downloaded with `python src/00_fetch_data.py` and stored under `data/raw/`.
