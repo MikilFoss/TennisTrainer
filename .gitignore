@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+venv/
+
+# Data artifacts
+data/*
+!data/README.md
+
+# Misc
+.mypy_cache/
+.pytest_cache/
+*.log
+*.egg-info/
+*.npy
+*.pt
